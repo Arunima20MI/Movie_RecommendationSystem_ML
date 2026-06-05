@@ -204,7 +204,7 @@ movie-recommendation-system/
 ├── MoviePrediction.ipynb
 ├── eda_plots.png
 ├── actual_vs_predicted.png
-└── README.md
+README.md
 ```
 
 ---
