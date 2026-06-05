@@ -42,7 +42,7 @@ It also predicts movie ratings using a **Ridge Regression model** and provides v
 
 The dataset file used is:
 
-```bash
+```bash id="0v0sxj"
 movies_data.csv
 ```
 
@@ -65,31 +65,39 @@ movies_data.csv
 
 ## Step 1: Clone the Repository
 
-```bash
+```bash id="71qk3n"
 git clone https://github.com/your-username/movie-recommendation-system.git
 ```
 
 ## Step 2: Navigate to Project Folder
 
-```bash
+```bash id="2x1y4m"
 cd movie-recommendation-system
 ```
 
 ## Step 3: Install Required Libraries
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+```bash id="gwqax4"
+pip install pandas numpy matplotlib seaborn scikit-learn notebook
 ```
 
 ---
 
 # ▶️ Running the Project
 
-Run the Python file:
+## Start Jupyter Notebook
 
-```bash
-python movie_recommendation.py
+```bash id="a0sm9m"
+jupyter notebook
 ```
+
+## Open the Notebook File
+
+```bash id="6z7j7r"
+MoviePrediction.ipynb
+```
+
+Run all cells sequentially to execute the complete project.
 
 ---
 
@@ -103,7 +111,7 @@ The project generates:
 
 Saved as:
 
-```bash
+```bash id="y8g7y4"
 eda_plots.png
 ```
 
@@ -135,7 +143,7 @@ Converts textual movie information into numerical vectors.
 
 Uses:
 
-```python
+```python id="f5ep3f"
 Ridge Regression
 ```
 
@@ -154,7 +162,7 @@ Metrics used:
 
 The recommendation system uses:
 
-```python
+```python id="3xgqka"
 Cosine Similarity
 ```
 
@@ -181,7 +189,7 @@ to find movies similar to the selected movie.
 
 Saved as:
 
-```bash
+```bash id="b4a0px"
 actual_vs_predicted.png
 ```
 
@@ -189,11 +197,11 @@ actual_vs_predicted.png
 
 # 📂 Project Structure
 
-```bash
+```bash id="km7u8o"
 movie-recommendation-system/
 │
 ├── movies_data.csv
-├── movie_recommendation.py
+├── MoviePrediction.ipynb
 ├── eda_plots.png
 ├── actual_vs_predicted.png
 └── README.md
@@ -203,7 +211,7 @@ movie-recommendation-system/
 
 # 📈 Sample Output
 
-```bash
+```bash id="qlq2g3"
 Enter a movie you like: PK
 
 ✔ Found : 'PK'
@@ -219,12 +227,5 @@ Top 5 Recommended Movies
 5. Taare Zameen Par
 ```
 
-# 👨‍💻 Author
-
-Developed by: **Arunima Mitra**
-
 ---
 
-# 📜 License
-
-This project is open-source and available under the MIT License.
